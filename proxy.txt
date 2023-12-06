@@ -1,6 +1,5 @@
 set http_proxy=http://127.0.0.1:7890 
 set https_proxy=http://127.0.0.1:7890
-ssh -o StrictHostKeyChecking=no -R 2333:127.0.0.1:7890 -p 33047 root@ssh.intern-ai.org.cn
 export http_proxy=http://127.0.0.1:2333 
 export https_proxy=http://127.0.0.1:2333
 export http_proxy=http://127.0.0.1:7890 
