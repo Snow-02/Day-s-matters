@@ -1,0 +1,6 @@
+huggingface-cli download --resume-download showlab/show-1-base --local-dir show-1-base
+huggingface-cli download --resume-download showlab/show-1-interpolation --local-dir show-1-interpolation
+huggingface-cli download --resume-download DeepFloyd/IF-II-L-v1.0 --local-dir IF-II-L-v1.0
+huggingface-cli download --resume-download showlab/show-1-sr1 --local-dir show-1-sr1
+huggingface-cli download --resume-download showlab/show-1-sr2 --local-dir show-1-sr2
+huggingface-cli download --token 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 --resume-download --local-dir-use-symlinks False meta-llama/Llama-2-7b-hf --local-dir Llama-2-7b-hf
